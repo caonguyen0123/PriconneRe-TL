@@ -31,7 +31,8 @@ Like情報=Like Info
 報酬受取=Claim All
 以下のアイテムを受け取りました。=You have received the following items.
 引き出せるマナがありません。=There is no mana to take out.
-
+ルピが不足しています。=Insufficient Rupies.
+プレイヤーLvが不足しています。=Insufficient Player Lv.
 
 設置=Place
 売却不可=Cannot Sell
@@ -73,16 +74,16 @@ Likeする=Like!
 
 r:"^絆ランク (\d+)$"=Bond\nRank $1
 
----Games---
+---games---
 購入価格=Price
 み=E
 んなのゲームテーブル=veryone's Game Table
 レッツ・クッキング！\nミヤコとプリンを作って食べて\nプリンの道を極めよう！=Let's Cook! Let's make and eat pudding with Miyako to master the way of pudding!
 こちらは1,000ルピで\n販売中！\nぜひ購入して\n遊んでくださいね！=This one's on sale for 1,000 rupees, so buy it and play with it!
-楽しいミニゲームをご紹介！\nあなたはどのミニゲームで\n遊びますか？=Here are some fun mini-games! Which mini-game will you play?
+楽しいミニゲームをご紹介！\nあなたはどのミニゲームで\n遊びますか？=Here are some fun Mini Games! Which mini-game will you play?
 動くハートに合わせてタップ！\nシズルさんとエリコさんの\nチョコレートケーキ作りを\nお手伝いしましょう！=Tap on the moving hearts to help Shizuru and Eriko make their chocolate cake!
 愛情たっぷりのチョコレートケー\nキを完成させよう！\n超キュートなタップゲーム！=Complete the loving chocolate cake in this super cute tap game!
-様々なミニゲームをご用意してい\nますよ！\nどのミニゲームで遊びますか？=We have a variety of mini-games for you to play!
+様々なミニゲームをご用意してい\nますよ！\nどのミニゲームで遊びますか？=We have a variety of Mini Games for you to play!
 素材購入=Buy stuff
 エピソード=Episode
 エピソードリスト=List of Episodes
@@ -192,7 +193,7 @@ r:"^(\d+)秒$"=$1s
 r:"^(\d+)分$"=$1m
 r:"^(\d+)時間$"=$1h
 ---NPC---
-ギルドハウスの\n使い心地は\nどうですか？=How is the\nguild house\ncomfortable isn't it?
+ギルドハウスの\n使い心地は\nどうですか？=How is the\nGuildhouse\ncomfortable isn't it?
 ご用があれば\nなんでも言って\nくださいね～♪=Please tell me\nif you need\nsomething~♪
 ふぁ～…あっ\n見られちゃい\nましたか？=Ah...\nCould be\nyou see it?
 

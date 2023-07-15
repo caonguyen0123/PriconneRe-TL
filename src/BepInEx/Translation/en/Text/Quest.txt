@@ -30,7 +30,7 @@ r:"^現在、スキップチケットの消費枚数が\n(\d+)枚に設定され
 ダンジョン=Dungeon
 調査=Expedition
 探索=Grotto
-バトルアリーナ=Battle Arena
+バトルアリーナ=\u2800  Battle Arena
 プリンセスアリーナ=Princess Arena
 キャンペーン中=Campaign
 
@@ -73,13 +73,12 @@ r:"^\[3C404E\]ボスチケットを\[FFBB00,CE4F00\](\d+)\[-\]枚消費して、
 クエストリトライ=Retry Quest
 ---Abort---
 リタイア=Quit
-sr:"^\[3C404E\]リタイアするとクエスト報酬を獲得できず、\nスタミナが\[FFBB00,CE4F00\]([0-9])\[-\]消費されます。\n\nよろしいですか？\[-\]$"=[3C404E]You will not receive any rewards if you quit,\nand stamina is consumed [FFBB00,CE4F00]$1 [-].\n\nIs this OK?[-]
+r:"^\[3C404E\]リタイアするとクエスト報酬を獲得できず、\nスタミナが\[FFBB00,CE4F00\](\d)\[-\]消費されます。\n\nよろしいですか？\[-\]$"=[3C404E]You will not receive any rewards if you quit,\nand you will lose [FFBB00,CE4F00]$1 [-]stamina.\n\nIs this OK?[-]
 
 ---Recharges stamina---
 回復回数指定=Heal count
 現在のスタミナ回復（１回あたり）の消費ジュエル=Current Heal price
-支払・提供時期・返品について=About Payment/Offer/refund
-ジュエルが不足しています。=Not enough Jewels
+支払・提供時期・返品について=About Payment/Offer/Refund
 回復回数=#Heal
 スタミナ回復単価一覧=Stamina Recovery Unit Price List
 スタミナ回復回数に応じて、スタミナ回復１回あたりの\nジュエルの必要数が異なります。詳細は下記をご覧ください。=Depending on the number of stamina recovery, the required number of jewels per stamina recovery differs.\nSee below for details.
@@ -103,3 +102,13 @@ r:"^\[3C404E\]ジュエルを\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個消費
 か所=Place
 
 クエストTOPへ=To the Quest top
+
+---Main Quest Menu---
+未達成=Unfinished
+未達成クエスト=Unfinished Quests
+★3未達成=Not 3★
+サブクエスト=Subquest
+★3クリアしていないクエストを確認できます。=Check quests that are not 3★ yet.
+未達成のクエストがありません。=No unfinished quests.
+クリアしていないサブクエストを確認できます。=Check unfinished subquests.
+挑戦回数が0のクエストはオート進行対象外になります。=Quests with 0 attempts will not be automatically progressed.

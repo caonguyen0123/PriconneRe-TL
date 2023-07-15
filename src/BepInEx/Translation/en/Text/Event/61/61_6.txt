@@ -51,7 +51,7 @@
 [3C404EFF]到着しました。[3C404EFF]\nここから先が[3C404EFF]ハンターズギルド管轄の魔物保護区です。=We've arrived. Beyond this point is the Hunter's Guild's monster protection zone.
 [3C404EFF]何が起きるかわかりません。[3C404EFF]\n[3C404EFF]十分に注意して進みましょう。=We don't know what will happen. Let's proceed with caution.                              
 [3C404EFF]作戦内容ですが、[3C404EFF]大猿さんに接近したのち、[3C404EFF]\n麻酔矢や眠り薬などで対象を眠らせます。=As for the plan, we'll approach the Great Ape and put it to sleep using tranquilizer darts and sleeping drugs.                           
-r:"^\[3C404EFF\]私と(.{2,10})さんは\[3C404EFF\]周囲を警戒しつつ、\[3C404EFF\]\nドクターの治療が終わるまで待機……\[3C404EFF\]\n\[3C404EFF\]コッコロちゃんは治療のお手伝い、[3C404EFF]という感じですね。$"=$1-san and I will be on alert while the doctor treats it. Kokkoro will assist in the treatment.                          
+r:"^(?:\[3C404EFF\])?私と(.{2,10})さんは(?:\[3C404EFF\])?周囲を警戒しつつ、(?:\[3C404EFF\])?\nドクターの治療が終わるまで待機……(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?コッコロちゃんは治療のお手伝い、[3C404EFF]という感じですね。$"=$1-san and I will be on alert while the doctor treats it. Kokkoro will assist in the treatment.                          
 [3C404EFF]ところでドクターさま。[3C404EFF]\n麻酔薬などに余裕はあるでしょうか？[3C404EFF]\n[3C404EFF]大猿さまが暴れた場合に備えて[3C404EFF]鎮静させるためにも……=By the way, Doctor, do you have enough anesthetic? Just in case the Great Ape goes berserk...              
 [3C404EFF]いや、[3C404EFF]麻酔薬や鎮痛剤の用意はしているが……[3C404EFF]\n余裕があるとはとても言えないな。=Well, I have prepared anesthetics and painkillers, but I can't say I have much extra.                 
 [3C404EFF]それならば、[3C404EFF]わたくしに考えがあります。=In that case, I have an idea.                 
@@ -67,7 +67,7 @@ r:"^\[3C404EFF\]私と(.{2,10})さんは\[3C404EFF\]周囲を警戒しつつ、\
 [3C404EFF]ウゥゥゥ……=Woooooo...
 [3C404EFF]あれは……[3C404EFF]わたくしたちが最初に見た姿ですね。[3C404EFF]\n[3C404EFF]どうやら大猿さまは[3C404EFF]昂られると、[3C404EFF]あのお姿になるご様子。=That's the same appearance we saw before. Apparently, when the Great Ape gets agitated, it takes that form.                                          
 [3C404EFF]大人しい姿の時であればよかったのですが……[3C404EFF]\n[3C404EFF]あの様子では、[3C404EFF]話を聞いてくださるのは難しいかと。=It would have been better if it was in its calm state, but it might be difficult to get it to listen in this state.         
-r:"^\[3C404EFF\]……作戦の位置に着きましょう。\[3C404EFF\]\n\[3C404EFF\]ドクターはこちらで待機、\[3C404EFF\]私とコッコロちゃん、\[3C404EFF\]\nそして(.{2,10})さんで\[3C404EFF\]大猿さんに対応します。$"=...Let's go to the planned location. The doctor will wait here while Kokkoro, $1-san, and I handle the Great Ape-san.
+r:"^(?:\[3C404EFF\])?……作戦の位置に着きましょう。(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?ドクターはこちらで待機、(?:\[3C404EFF\])?私とコッコロちゃん、(?:\[3C404EFF\])?\nそして(.{2,10})さんで(?:\[3C404EFF\])?大猿さんに対応します。$"=...Let's go to the planned location. The doctor will wait here while Kokkoro, $1-san, and I handle the Great Ape-san.
 [3C404EFF]わんわんの主さまはこちらで待機を。[3C404EFF]\n[3C404EFF]いい子にしていてくださいね。=Wan-wan aruji-sama, please wait here and behave yourself, okay?
 [3C404EFF]はっはっはっはっ……！=Hah hah hah hah hah...!
 [3C404EFF]承知した。[3C404EFF]だが、[3C404EFF]決して無理をしないと約束してくれよ。[3C404EFF]\n[3C404EFF]君たちの治療をしなければならないなんて[3C404EFF]御免だからな。=Understood. But promise me you won't overdo it. I don't want to have to treat you guys.                               
@@ -103,7 +103,7 @@ Yes, it was a good practical lesson.
 [3C404EFF]そうだ、[3C404EFF]授業といえば……[3C404EFF]\n君たちの出席日数は足りているのか？=Oh, speaking of lessons... have you all attended enough classes?               
 出席……日数？=Attendance...?
 [3C404EFF]そういえば、[3C404EFF]わたくしたち……[3C404EFF]\nこの森の調査任務を受けていたとはいえ、[3C404EFF]\n[3C404EFF]遭難した日の講義もすっぽかしておりますね。=Come to think of it, we missed lectures on the day we got lost, even though we were on a mission to investigate this forest.
-[3C404EFF]私は[3C404EFF]さらに一日休んじゃってますし、[3C404EFF]\nCorneliaさんは[3C404EFF]いくつか再試験がありましたよね。=I took an extra day off, and Cornelia had a few make-up exams, didn't she?                                                  
+r:"^(?:\[3C404EFF\])?私は(?:\[3C404EFF\])?さらに一日休んじゃってますし、(?:\[3C404EFF\])?\n(.{2,10})さんは(?:\[3C404EFF\])?いくつか再試験がありましたよね。$"=I took an extra day off, and $1-san had a few make-up exams, didn't she?                                                  
 もしかして……？=Could it be...?
 [3C404EFF]……えっと、[3C404EFF]どう計算しても、[3C404EFF]\n[3C404EFF]レンジャー資格を取るための最終試験に[3C404EFF]\n必要な単位が足りない……[3C404EFF]ですね。=Um, no matter how you calculate it, we don't have enough credits to take the final exam to become Rangers.                             
 [3C404EFF]つまり、[3C404EFF]わたくしたちは……[3C404EFF]\n[3C404EFF]その、[3C404EFF]最終試験を受けるまでもなく、[3C404EFF]不合格、[3C404EFF]だと。=In other words, we're unqualified without even taking the final exam.                            
@@ -120,7 +120,7 @@ Yes, it was a good practical lesson.
 でも、いいんですか？=But, Is that okay?
 [3C404EFF]形式ばった規則にのっとって、[3C404EFF]\n君たちを落第させる損失の方が大きいと、[3C404EFF]そう判断した。=Isn't it just following formal rules? I judged that it would be a greater loss to fail you based on that.                        
 [3C404EFF]しかし、[3C404EFF]私が手助けできるのはここまでだ。[3C404EFF]\n[3C404EFF]最終試験は[3C404EFF]君たちの実力で乗り越えてもらう。=But my assistance can only go this far. You'll have to overcome the final exam with your own abilities.                         
-r:"^\[3C404EFF\]大丈夫です。\[3C404EFF\]\nコッコロちゃんと(.{2,10})さんと……\[3C404EFF\]\nみんながいれば、\[3C404EFF\]きっと合格できます。$"=It's okay. If we have Kokkoro-chan and $1-san, we can definitely pass.
+r:"^(?:\[3C404EFF\])?大丈夫です。(?:\[3C404EFF\])?\nコッコロちゃんと(.{2,10})さんと……(?:\[3C404EFF\])?\nみんながいれば、(?:\[3C404EFF\])?きっと合格できます。$"=It's okay. If we have Kokkoro-chan and $1-san, we can definitely pass.
 [3C404EFF]ええ、[3C404EFF]みんなご一緒に。=Yes, we're all in this together.                    
 それじゃあ帰ろう！=Then let's go home!
 [3C404EFF]ええ。[3C404EFF]……帰ったらまずは、[3C404EFF]予習と復習ですね。[3C404EFF]\n[3C404EFF]最終試験の日まで、[3C404EFF]あまり時間もありませんから。=Yes... When we get back, we'll need to review and prepare. There's not much time left until the final exam.                   
@@ -129,4 +129,4 @@ r:"^\[3C404EFF\]大丈夫です。\[3C404EFF\]\nコッコロちゃんと(.{2,10}
 [3C404EFF]ダメでございます。[3C404EFF]\n[3C404EFF]主さまは再試験の科目も多いのですから。=No, we can't. Aruji-sama has a lot of subjects to take make-up exams for.                        
 [3C404EFF]主さまのためなら、[3C404EFF]わたくしは鬼にもなります。[3C404EFF]\n[3C404EFF]さあ、[3C404EFF]戻って一休みしたら[3C404EFF]お勉強の時間でございますよ。=If it's for Aruji-sama, I'll even become a demon. Now, let's rest for a bit and then study.                      
 [3C404EFF]絶対にみんなで合格するって約束しましたから。[3C404EFF]\n[3C404EFF]頑張って、[3C404EFF]私もサポートしますからね。=We promised to pass together, so let's do our best. I'll support you too.                                  
-r:"^\[3C404EFF\]そして、数日後──\[3C404EFF\]\n最終試験を終えた(.{2,10})たちは\[3C404EFF\]\nそれぞれの結末と共に、ランドソルへ帰還した。$"=And a few days later, $1 and the others returned to Randsel with their respective outcomes after the final exam.
+r:"^(?:\[3C404EFF\])?そして、数日後──(?:\[3C404EFF\])?\n最終試験を終えた(.{2,10})たちは(?:\[3C404EFF\])?\nそれぞれの結末と共に、ランドソルへ帰還した。$"=And a few days later, $1 and the others returned to Randsel with their respective outcomes after the final exam.

@@ -14,6 +14,7 @@ Lv強化=Level Up
 まとめて装備=Equip All
 装備する=Equip
 入手方法=How to Obtain
+装備入手方法=How to Obtain
 解放OK！=Ready to\nUnlock!
 未開放ユニット=Locked unit
 限定キャラのため解放できません。=Limited character cannot be unlocked.
@@ -30,11 +31,11 @@ Lv強化=Level Up
 装備ステータス=Equipment Stats
 使う=Use
 強化ポーションを所持していません=no EXP Potion left!
-あと=Remain:
+あと=Left:
 この装備は今後登場予定です。=This equipment will appear in the future.
 マイパーティ=My Parties
 エクストラキャラ=Extra Character
-[FF7C4E,D62146]必要素材が不足しています。[-]=[FF7C4E,D62146]You do not have the required materials.[-]
+[FF7C4E,D62146]必要素材が不足しています。[-]=[FF7C4E,D62146]Insufficient required materials.[-]
 表示切替=Appearance
 おまかせ強化確認=Enhance Character
 消費マナ=Cost
@@ -49,7 +50,7 @@ Lv強化=Level Up
 強化素材選択=Select\nRefinement Materials
 まとめてリセット=Reset All
 獲得強化Pt=Refinement Pts
-強化=Enhance
+強化=Refine
 最大まで強化=to maximize
 合計Pt=Total Pts
 強化確認=Refine Equipment
@@ -62,9 +63,11 @@ RANK2で解放されます。=Will be unlocked in RANK 2.
 強化素材を選択してください。=Please select a refinement material.
 装備可能なスロットがありません。=There is no slot that can be equipped.
 以下のアイテムを消費しておまかせ強化しますか？=Use the following items to enhance\ncharacter as recommended?
+おまかせ無料強化対象キャラ=Character(s) eligible for free enhancement
 キャラLvとスキルLvのみ強化のため、原鉱は消費できません。=Only Character Lv and Skill Lv are enhanced, so no Ore can be consumed.
 r:"^\[3C404E\]アイテムを消費して、強化Lv上限を\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]に解放します。\nよろしいですか？\[-\]$"=[3C404E]Consume items to increase Lv limit to [FFBB00,CE4F00]$1[-].\nIs this OK? [-]
-
+おまかせ装備強化確認=Confirm Equipment Refinement
+以下のアイテムを消費しておまかせ装備強化します。\nよろしいですか？=Spend the following items\nto strengthen your equipment?
 キャラ解放確認=Unlock Character
 解放する=Unlock
 アイテムが不足しています。=Insufficient Items.
@@ -101,7 +104,7 @@ r:"^\[3C404E\]アイテムを消費して、強化Lv上限を\[-\]\[FFBB00,CE4F0
 この装備は素材から作成できません。=You cannot craft this equipment.
 ---ORE---
 原鉱を使えば作成できます。=Can be created by using Ore.
-今後このメッセージを表示しない\n※設定から変更可=Do not show this message in the future\n※Can be changed from the settings.
+今後このメッセージを表示しない\n※設定から変更可=Do not show this message in the future.\n※Can be changed later from [Settings].
 原鉱消費確認=Ore Consumption Confirmation
 以下の原鉱が消費されます。\nよろしいですか？=The following ore will be consumed.\nIs this OK?
 消費装備が十分のため、原鉱を消費できません。=No need, you have enough equipment.
@@ -130,7 +133,7 @@ EXスキルスロット=EX skill slot
 この装備は強化できません。=This equipment cannot be refined.
 ---Rank Up Detail---
 未装備のステータス=Unequipped Stats
-装備強化MAX=MAX Refineme
+装備強化MAX=MAX Refinement
 未装備=Unequip
 ランクアップ詳細=Rank Up Detail
 装備強化MAXのステータス=MAX Refinement Stats
@@ -181,22 +184,22 @@ EXスキルスロット=EX skill slot
 セットボーナス=Stats Bonus
 
 アイテムを消費して、セット/強化します。=The following items are consumed.
-アイテム強化確認=Reinforcement Confirmation
+アイテム強化確認=Refine Confirmation
 
 ステータスアップ=Status Up
 以下のセットボーナスを獲得しました！=You've earned the following stat bonuses!
-最大まで強化しています。=Maxed enhanced already
+最大まで強化しています。=Maxed refinement already
 すでにセットしています。=It's already placed
 必要なメモリーピースの上限に達しています。=Required the number of Memory Shards reached.
-
----Recommended Enhancement
-おすすめ強化メニュー=Recommended Enhancements
+★6才能開花に必要なアイテムをセットするには\n専用装備が必要です。\n\nまた、専用装備を装備するには\nRANK7にする必要があります。\n\nランクアップしますか？=To set the items needed for 6★ ascension, Unique Equipment is required.\n\nTo equip the Unique Equipment,\nthe character needs to be raised to RANK7.\n\n Rank up now?
+---Recommended Enhancement---
+おすすめ強化メニュー=Recommended Refinement
 装備強化=Refine
 装備強化でステータスアップ！=Refine items to boost their stats!
 消費Pt=PT Cost
 装備を手に入れてランクアップしよう！=Get the equipment to raise rank!
 おすすめクエスト=Quest
----=
+------
 強化ボーナス=Stat Bonus
 プリンセスオーブ詳細=Princess Orb details
 強化段階=Stage
@@ -285,7 +288,7 @@ RANKボーナス詳細のステータス=Status Details
 （キャラ）=(Character)
 
 専用装備をまだ装備していません。\n作成するにはRANK7にする必要があります。\n\nランクアップしますか？=You can't equip Unique Equipment yet\nMust be RANK7 or higher to create Unique Equipment.\n\nWould you like to rank up?
----=NPC
+---NPC---
 「キャラLv限界突破」によりプレイヤーLvを超えてキャラLvを強化できます。ステータスアップやスキルLvの強化上限が解放されるので各キャラのメモリーピースとマナを集め、限界突破を目指しましょう。=You can leveling the chara Lv beyond the PLv by "Chara Lv limit breakthrough". The status and skill Lv will be Uncaped,so collect memory shards and mana for each character and aim to limit break them.
 
 プレイヤーLvが、キャラクターLvの上限になります。\nメインクエストやミッション達成で、プレイヤーEXPをGETし\nLvアップを目指しましょう。=Character levels can only go as high as your player level.\nComplete Main Quests and missions to earn player EXP and raise your level.

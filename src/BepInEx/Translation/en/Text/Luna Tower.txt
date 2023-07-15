@@ -2,7 +2,7 @@
 ナの塔=na Tower
 r:"^(\[[0-9A-F,]{6,13}\])階\[-\]$"=$1F[-]
 階=F
-回廊探索=Corridor
+回廊探索=Phantom Passage
 パーティ=Party
 保存パーティ=Save Party
 ルナの塔においてバトル速度の上限を設定できます。=You can set the upper limit\nof battle speed in the Luna Tower
@@ -11,10 +11,11 @@ r:"^(\[[0-9A-F,]{6,13}\])階\[-\]$"=$1F[-]
 対象タブ=Tab
 パーティ名=Party Name
 残り挑戦回数がリセットされるまでお待ちください。=Please wait until your attempt limit resets.
-
+r:"^このEXクエストは(\d+)階をクリアすると解放されます。$"=This EX quest will be unlocked after Clearing the floor $1.
 キャラ全回復=Full Heal
-r:"^\[3B3F4D\]あと\[-\]\[64C9FD,0060BA\](\d+)時間\[-\]\[3B3F4D\]で利用できます。\[-\]$"=[3B3F4D]Can be used in [FFBB00,CE4F00]$1h[-].[-]
-1日1回キャラを全回復できます。=Can Heals All once a day.
+r:"^\[3B3F4D\]あと\[-\]\[64C9FD,0060BA\](\d+)時間\[-\]\[3B3F4D\]で利用できます。\[-\]$"=[3B3F4D]Can be used in [64C9FD,0060BA]$1h[-].[-]
+r:"^\[3B3F4D\]あと\[-\]\[64C9FD,0060BA\](\d+)分\[-\]\[3B3F4D\]で利用できます。\[-\]$"=[3B3F4D]Can be used in [64C9FD,0060BA]$1m[-].[-]
+1日1回キャラを全回復できます。=Can Heal All once a day
 sr:"^あと(\d+)?時?間(\d+分)で利用できます。$"=$1h$2 remaining to use it.
 
 全てのキャラのHPを全回復します。=Recovers HP of all characters.
@@ -26,7 +27,7 @@ sr:"^あと(\d+)?時?間(\d+分)で利用できます。$"=$1h$2 remaining to us
 
 EXクエスト一覧=EX Floors
 
-回廊探索 クリアパーティ一覧=Corridor Search Clear Party List
+回廊探索 クリアパーティ一覧=Phantom Passage Search Clear Party List
 
 不参加=N/A
 
@@ -34,7 +35,7 @@ EXクエスト一覧=EX Floors
 
 模擬戦で使用=Training Use
 本戦で使用=Main Use
-未所持/戦闘不能/制限Lv以下のキャラは編成できません。=Unclaimed/Uncombatable/Too low Lvl\ncannot be deployed.
+未所持/戦闘不能/制限Lv以下のキャラは編成できません。=Underleveled \ Not owned \ Incapacitated\ncharacters can't be used.
 本戦の場合、本戦使用済みのキャラは編成されません。=In the main battle, already-used characters\ncannot be deployed again.
 本日の編成キャラ数=Today's chars
 
@@ -45,15 +46,15 @@ EXクエスト一覧=EX Floors
 
 r:"^\[3C404E\]リタイアするとスタミナが\[FFBB00,CE4F00\](\d+)\[-\]消費され、\nキャラのHP・TPがバトル前の状態に戻ります。\n\nよろしいですか？\[-\]$"=[3C404E]Retiring will consume [FFBB00,CE4F00]$1[-] stamina and return your character's HP and TP to their pre-battle state.\n\nAre you sure?[-]
 
-模擬戦では報酬は獲得できません。=No rewards can be\nearned in mock battles.
+模擬戦では報酬は獲得できません。= \u2800    No rewards earned in training.
 
 進行中バトル=Battle in progress
 ルナの塔へ=To Luna Tower
 
 パーティ編成使用確認=Confirm Party Selection
 このパーティ編成を使用しますか？=Do you want to use this party setup?
-未所持/制限Lv以下のキャラは編成できません。=Characters you do not own\nor under leveled cannot be used.
-今後このメッセージを表示しない\n※この設定は後から［設定］で変更できます。=Do not display this message in the future.\nThis setting can be changed later in [Settings].
+未所持/制限Lv以下のキャラは編成できません。=Underleveled / not owned characters can't be used.
+今後このメッセージを表示しない\n※この設定は後から［設定］で変更できます。=Do not show this message in the future.\n※Can be changed later from [Settings].
 
 クエストリタイア=Leave Quest
 [3C404E]リタイアするとクエスト報酬を\n獲得することができません。\n\nよろしいですか？[-]=[3C404E]You will not receive any rewards if you quit.\n\nAre you sure?[-]
@@ -62,13 +63,13 @@ r:"^ルナの塔(\d+)階$"=Luna Tower $1F
 r:"^(\d+)階 クリアパーティ一覧$"=$1 Floor Clear Party List
 このパーティはバトルに参加していません。=This party has not participated in the battle.
 同名キャラ編成の設定が「編成不可」になっています。=The setting of the same name character organization is "not organized".
-未所持のキャラは編成できません。=Characters you do not own cannot be assigned to a party.
+未所持のキャラは編成できません。= not own cannot be assigned to a party.
 変更可=Changing
-変更不可=can't change
-選択したパーティの★=selected Party ★
+変更不可=Can't Chg
+選択したパーティの★=Selected Party ★
 「★１、２、６へ変更」「星5に才能開花をしていないキャラを変更」はできません。=You cannot change ★1, ★2, ★6 Characters. Only ★5 can change the ★.
-選択したパーティの★に変更する=Change ★ to Selected Party's ★
-選択したパーティと現在のキャラの★の数が異なります。=The ★ of selected parties and the current character ★ is different.
+選択したパーティの★に変更する=\u2800 Change ★ to Selected Party's ★
+選択したパーティと現在のキャラの★の数が異なります。=The ★ of selected and \ncurrent characters is different.
 現在のキャラの★=Current character ★
 同じキャラを編成することはできません。=You can not organize the same character.
 05:00までは他のサポートキャラを選択できません。=You can not select other\nrental characters until 05:00(JST).
@@ -88,13 +89,20 @@ r:"^(\d+)階 クリアメンバー$"=Floor $1 Survivors
 r:"^(\d+)階EXクエスト クリアメンバー$"=Floor $1 EX Quest Survivors
 r:"^(\d+)階EX クリアパーティ一覧$"=Floor $1 EX Clear Party List
 このクエストをクリアしたクランメンバーです。=Clan members that have cleared this quest.
-回廊探索 クリアメンバー=Corridor Exploration Survivors
-r:"^回廊探索 wave(\d)$"=Corridor Exploration Wave$1
+回廊探索 クリアメンバー=Phantom Passage Exploration Survivors
+r:"^回廊探索 wave(\d)$"=Phantom Passage Exploration Wave$1
 バトルスキップを行いますか？=Do you want to skip the battle?
 [FF7C4E,D62146]対象のクエストはありません。[-]=[FF7C4E,D62146]No quests are available.[-]
 クリアで使用できます。=Must clear it first.
-AUTO・SMARTで操作せずバトル終了した場合リプレイできます。=You can replay if the battle ends without using AUTO/SMART.
+AUTO・SMARTで操作せずバトル終了した場合リプレイできます。=You can replay if the battle using AUTO/SMART.
 ※「AUTO」にてバトルが行われます。\nまたスキップ時はUB即発動モードはOFFになります。\n※リプレイは最後まで操作方法を変えずにバトルを行った場合に再生できます。="※Battle will be held in "AUTO".\nAlso, when skipping, UB immediate activation mode will be OFF.\n※Replays can be replayed when the battle is played without changing the operation method until the end."
+
+スキップ結果確認=Skip Results Confirmed
+リタイアすると、\n敵とキャラのHP・TPがバトル前の状態に戻ります。\n\nよろしいですか？=When you retire, the character's HP and TP will return to how they were before the battle.\n\nIs that all right?
+
+スキップ結果確認=Confirm Skip Results
+スキップした結果を反映しますか？=Reflect the result of skipping?
+
 ---Story card---
 閲覧したい章を選択してください。=Please select the chapter you would like\nto view.
 ルナの塔ストーリー一覧=Luna's Tower Story List
@@ -117,7 +125,7 @@ AUTO・SMARTで操作せずバトル終了した場合リプレイできます�
 すれちがいディスタンス=Passing Distance
 湧き上がる勇気が=The Courage that springs
 トリプルヒーロー参上！=Triple Hero Going!
----NPC
+---NPC---
 選択した使用したいパーティ内のキャラの★数が現在設定している★数と\n異なります。★選択した使用したいパーティの★に変更できます。\n★の数は★5～★3の間で変更できますよ。=The ★ number of the selected characters in the party you want to use is different from the currently set ★ number. ★ You can change to the ★ of the party you want to use. The number of ★ can be changed between ★ 5 and ★ 3.
 塔は育てたキャラ全員を編成することが可能で、何回でも挑戦できます。\n1日に1回、HPを全回復できる「キャラ全回復」ボタンが使えます。=The Tower can be attempted as many times as you want using parties that consist of any of characters you have. You can also use "Full Heal" once per day to fully restore your team's HP.
 塔に出現するシャドウは、バトル開始時にTPが溜まっています。\n加えて、バトルの制限時間を過ぎると全滅してしまいます。\n残り時間にもお気を付けくださいませ。=The shadow in the Tower start battle with their TP full. What's more your party will be wiped out if battle goes over the time limit. Please pay attention to the remaining time.

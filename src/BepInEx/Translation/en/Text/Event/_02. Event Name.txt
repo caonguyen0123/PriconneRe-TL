@@ -158,11 +158,12 @@ Re:member　僕の願いが紡ぐ未来=Re: Member's future spun by my wish
 エピソード・オブ・パイレーツ海賊島の呪われし遺宝=Episode of Pirates: The Cursed Treasure of Pirate Island
 
 51
-エンジョイ＆リフレッシュ！でこぼこガールズ・キャンプ=Enjoy & Refresh! Dekoboko Girls Camp
+エンジョイ＆リフレッシュ！でこぼこガールズ・キャンプ=Enjoy & Refresh! Bumpy Girls' Camp
+エンジョイ＆リフレッシュ！　 でこぼこガールズ・キャンプ=Enjoy & Refresh! Bumpy Girls' Camp
 
 52
-トゥインクルサマーゲーム　夏海にきらめく三つの想い=Twinkle Summer Games: Three Sparkling Thoughts on the Summer Sea
-トゥインクルサマーゲーム夏海にきらめく三つの想い=Twinkle Summer Games: Three Sparkling Thoughts on the Summer Sea
+トゥインクルサマーゲーム　夏海にきらめく三つの想い=Twinkle Summer games: Three Sparkling Thoughts on the Summer Sea
+トゥインクルサマーゲーム夏海にきらめく三つの想い=Twinkle Summer games: Three Sparkling Thoughts on the Summer Sea
 
 53
 リトル・サマー・メモリーズ渚でみつけた小さな幸せ=Little Summer Memories: A Little Happiness Found on the Shore
@@ -197,3 +198,8 @@ Dearsおかえりとただいまの約束=Dears: Promise of "Welcome back" and "
 ヴァンパイアフォークロア　 夜と美の饗宴=Vampire Folklore: Banquet of Night and Beauty
 ヴァンパイアフォークロア 夜と美の饗宴=Vampire Folklore: Banquet of Night and Beauty
 ヴァンパイアフォークロア夜と美の饗宴=Vampire Folklore: Banquet of Night and Beauty
+
+64
+オーマの水からっぽ大作戦　 秘密主義者と禁断の海=Oma's Sea Draining Operations: Personal Secret and the Forbidden Sea
+オーマの水からっぽ大作戦 秘密主義者と禁断の海=Oma's Sea Draining Operations: Personal Secret and the Forbidden Sea
+オーマの水からっぽ大作戦秘密主義者と禁断の海=Oma's Sea Draining Operations: Personal Secret and the Forbidden Sea

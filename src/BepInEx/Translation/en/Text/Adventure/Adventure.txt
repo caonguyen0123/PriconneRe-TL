@@ -27,7 +27,7 @@ r:"^(\d+)ジュエル1時間短縮$"=$1 Jewels for 1h reduction
 ジュエルを使って必要時間を短縮！=Use Jewels to shorten time!
 チケットを使って必要時間を短縮！=Use a Ticket to shorten time!
 r:"^\[FF7C4E\,D62146\]残り ([0-9/]+)回\[-\]$"=[FF7C4E,D62146]$1 Left[-]
-チケットが不足しています。=There is a shortage of tickets.
+チケットが不足しています。=Insufficient tickets.
 チケットやジュエルを使って時間を短縮！=Time to shorten time using tickets and jewels!
 1日の時間短縮可能回数の上限に達しているため時間短縮できません。=Reached maximum time reduction for today
 戦力オーバーによる時間短縮の上限になりました。=Too over powered, already max time reduction
@@ -56,6 +56,7 @@ r:"^\[FF7C4E\,D62146\]残り ([0-9/]+)回\[-\]$"=[FF7C4E,D62146]$1 Left[-]
 このパーティは帰還していません。=This party has not returned.
 パーティ数上限=Party Limit
 冒険中のパーティが上限に達しています。=The party during the adventure has reached max limit.
+この操作には対応していません。=Not supported for this operation.
 
 短縮する=Shorten
 周回追加=+Lap
@@ -98,7 +99,7 @@ r:"^本日のチケットでの時間短縮可能回数 ([0-9/]+)$"=Today's Fast
 再出発しない=Return
 再出発する=Start again
 レースの神様=Race Deity
-ファントムキャッツ登場！=Phantom Cats Appears!
+ファントムキャッツ登場！=Phantom Cat Appears!
 
 r:"^([0-9/]+)キャラ$"=$1 Chara
 戦力不足のため実行できない遠征があります。=There are Adventures that cannot be carried out due to insufficient Power.

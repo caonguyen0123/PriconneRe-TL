@@ -1,7 +1,7 @@
 Profileモニカ
 モ=Mo
 ニカ=nika
-お菓子屋通い=Going to a candy store
+お菓子屋通い=Going to a confectionery store
 見た目も中身もお子ちゃまな異国の軍人=A soldier from a foreign land\nwho looks and acts like a child
 【物理】中衛で、味方の攻撃を鼓舞する、軍人娘。味方全体の物理、魔法攻撃力の大幅アップに加えて、攻撃速度もあげることで、戦闘の早期終結を実現する。=[Physical] A soldier that increases allied offense from the midguard. Ends battles swiftly by greatly boosting the party's physical and magical attack power as well as attack speed.
 
@@ -16,7 +16,7 @@ S1
 r:"^味方全体の物理攻撃力を(\d+)アップ\n味方全体の魔法攻撃力を(\d+)アップ\n味方全体の行動速度アップ$"=►Boosts allies' P.ATK by $1.\n►Boosts allies' M.ATK by $2.\n►Boosts action speed of all allies.
 ►same with karin, SarenS
 S2
-マスケットショット=Masket shot
+マスケットショット=Musket Shot
 ex
 白翼の加護=Blessing of the White Wings
 Skills+
@@ -32,3 +32,18 @@ ex
 白翼の加護+=Blessing of the White Wings+
 UE
 フリューゲルコート=Flügel Coat
+
+
+背中を預ける者の条件=Conditions for Entrusting Your Back
+勝利の風を掴むためには=To Seize the Wind of Victory
+絆の力で放つ奥義=Secret Technique Unleashed by the Power of Bonds
+努力の先に求める強さ=Strength Sought Beyond Effort
+甘い甘いお礼の証=Sweet, Sweet Gratitude
+目をつぶれ、貴公=Closed Eyes On Me
+穴の中に隠された真実=Unforeseen Developments
+モニカの秘密小隊=Monika's Secret Platoon
+スイミング・バディ=Swimming Buddies
+求める強さは志のために=For One's Pride
+白き翼で空を舞う=Soaring White Wings
+体は小さく誇りは高く=A Tiny, Tiny, Dignified Commander
+

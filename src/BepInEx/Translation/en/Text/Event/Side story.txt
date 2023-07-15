@@ -92,18 +92,8 @@ r:"^呪われた海賊島([0-9\-\(\)\w ]*)$"=Cursed Pirate Island $1
 ---==
 r:"^タイムトンネル([0-9\-\(\)\w （）]*)$"=Time Tunnel $1
 バースト・タイムラーベ=Burst Time Love
----==
-r:"^キャンピングフィールド([0-9\-\(\)\w （）]*)$"=Camping Field $1
-アストライアタケモドキ=Astrea Takemodoki
-キャンプと野営=Camps and wild management
-バケーション・\nジュン=Vacation\nJun
-いつもの習慣=The usual habit
-はじめての\nグループキャンプ=For the first time\nGroup camp
-コーヒーに映る\n精神=Appear in coffee\nspirit
-癒して\nぼっち精神=Heal\nSpirit
-たき火の魅力=The charm of bonfire
-最高の一杯に\n必要な物=To the best cup\nNecessary
-最高の一杯を\n求めし女=The best cup\nDesired woman
+------
+
 ------==
 r:"^王都ランドソル([0-9\-\(\)\w （）]*)$"=Landosol City $1
 r:"^王都ランドソル 女神の祭典([0-9\-\(\)\w （）]*)$"=Landosol City: Goddess Festival $1
@@ -185,7 +175,7 @@ r:"^(\d+)回完了$"=Done × $1
 r:"^カルミナサマーライブ会場([0-9\-\(\)\w （）]*)$"=Carmina Summer Live Venue $1
 クイーンウタクラゲ=Queen Singer Jellyfish
 ---=
-r:"^港町・オーマ([0-9\-\(\)\w （）]*)$"=Port town Oma $1
+r:"^港町・オーマ([0-9\-\(\)\w （）]*)$"=Port town Ohma $1
 グレートトゥンヌス=Great Tunnus
 VERY HARDでカズマサさまが援護してくれるようです。強力なスタン効果のユニオンバーストで、サポートしてくださいますよ。ボスが身動きを取れなくなっている間に、一気に倒しましょう。=It seems that Kazumasa-sama will support you in VERY HARD. I will support you with a powerful stun effect UB. While the boss is stun, let's defeat it at once.
 

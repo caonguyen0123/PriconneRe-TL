@@ -6,7 +6,7 @@
 新しい順=Newest
 古い順=Oldest
 家具=Furniture
-ギルドハウス家具は、メインクエスト2-1（NORMAL）クリアで受け取れます。=Guild House Furniture can be received by clearing the main quest $1.
+ギルドハウス家具は、メインクエスト2-1（NORMAL）クリアで受け取れます。=Guildhouse Furniture can be received by clearing the main quest $1.
 [FF7C4E,D62146]受け取れるアイテムがありません。[-]=[FF7C4E,D62146]There are no items.[-]
 [FF7C4E,D62146]受け取ったアイテムはありません。[-]=[FF7C4E,D62146]There are no items.[-]
 
@@ -18,12 +18,12 @@
 運営からのお詫びの品です。=It is an apology item from the operation.
 
 プレゼントに送られたアイテムがあります。=There are items sent to the present.
-ガチャ更新によりキャラ交換Ptを変換したアイテムです。=It is an item that converted character replacement PT by gacha update.
+ガチャ更新によりキャラ交換Ptを変換したアイテムです。=Converted from character exchange points due to gacha update.
 ---Item List Receive---A->Item,B->Number
 
 ---Item Receive---
-sr:"^\[3C404E\]([\s\S]+)×\[-\]\[FFBB00,CE4F00\](\d+)\[-\]$"=[3C404E]$1 × [-][FFBB00,CE4F00]$2[-]
-sr:"^(\D+)×(\d+)$"=$1 × $2
+sr:"^(\[[0-9A-Fa-f,]{6,13}\])?(\D+)(?:×|x)(?:\[-\])?(\[[0-9A-Fa-f,]{6,13}\])?(\d+)(\[-\])?(?:\[-\])?$"=$1$2 × $3$4$5$5
+
 ---sort---
 フィルタ=Filter
 期限あり=Limited Time
@@ -70,8 +70,7 @@ sr:"^「(.+)キャンペーン」(\d+日)目で獲得したアイテムです。
 運営からのプレゼントです。=Gift from the management.
 
 ---Premium---
-sr:"^\[3C404E\]([0-9]*[^0-9]+)(\d+)日目のアイテムセット\[-\] \[3C404E\]あと\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]日有効\[-\]$"=[3C404E]$1: Day $2 reward. [FFBB00,CE4F00]$3[-][3C404E] day(s) remaining.[-]
+sr:"^\[3C404E\]([0-9]*[^0-9]+)(\d+)日目のアイテムセット\[-\] \[3C404E\]あと\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]日有効\[-\](?: \[3C404E\](\+\d+)日予約中\[-\])?$"=[3C404E]$1: Day $2 reward. [FFBB00,CE4F00]$3[-]$4[3C404E] day(s) remaining.[-]
 
-[3C404E]7日間スタミナ応援パック4日目のアイテムセット[-] [3C404E]あと[-][FFBB00,CE4F00]4[-][3C404E]日有効[-]=[3C404E] Seven days of stamina support pack, item set for the fourth day [--], [-] [FFBB00, SE4F004E], and valid [- -]
 
 所持上限に達しているアイテムがあります。\n対象アイテムは受け取れませんでした。=Item limit reached.\nUnable to receive the designated item.

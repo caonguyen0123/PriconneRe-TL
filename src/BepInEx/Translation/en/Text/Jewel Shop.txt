@@ -9,7 +9,7 @@
 価格=Price
 商品内容の詳細=Details
 r:"^毎日更新 ジュエル ([0-9]+)個$"=Daily Update Jewel $1
-r:"^([1-9])回限定 ジュエル ([0-9]+)個$"="$1 Left: Limited Jewel $2"
+r:"^([1-9])回限定 ジュエル ([0-9]+)個$"="Limited Jewels $2 ($1 left)"
 r:"^([2-9])回限定$"="Limited!\n$1 times only"
 1回限定=Limited!\n1 time only
 
@@ -41,28 +41,33 @@ r:"^([2-9])回限定$"="Limited!\n$1 times only"
 デイリージュエルパック=Daily Jewel Pack
 デイリージュエルパック購入=Buy Daily Jewel Packs
 デイリージュエルパックについて=About Daily Jewel Packs
+デイリージュエルパック期間通知=Daily Jewel Pack Period Notification
 7日間スタミナ応援パック=7 Days Stamina Pack
 7日間スタミナ応援パック購入=Buy 7 Days Stamina Pack
 7日間スタミナ応援パックについて=About 7 Days Stamina Pack
+7日間スタミナ応援パッ期間通知=7 Days Stamina Pack Period Notification
 30日間スタミナ応援パック=30 Days Stamina Pack
 30日間スタミナ応援パック購入=Buy 30-Days Stamina Pack
 30日間スタミナ応援パックについて=About 30 Days Stamina Pack
+30日間スタミナ応援パッ期間通知=30 Days Stamina Pack Period Notification
   pack
 7日間探索挑戦回数+3回=7 days Grotto +3 pack
 7日間探索挑戦回数+3回購入=Buy 7 days Grotto +3 pack
 7日間探索挑戦回数+3回について=About 7 days Grotto +3 pack
+7日間探索挑戦回数+3回期間通知=7 days Grotto +3 pack Period Notification
 30日間探索挑戦回数+3回=30 days Grotto +3 pack
 30日間探索挑戦回数+3回購入=Buy 30 days Grotto +3 pack
 30日間探索挑戦回数+3回について=About 30 days Grotto +3 pack
+30日間探索挑戦回数+3回期間通知=30 days Grotto +3 pack Period Notification
 購入Lv制限あり=Purchase Lv Limit
 
-sr:"^\[FFBB00,CE4F00\]([0-9,]+)pt\[-\]\[3C404E\]で\[-\]\[FFBB00,CE4F00\](.+)\[-\]\[3C404E\]を\n１セット購入しますか？\[-\]$"=[3C404E]Would you like to purchase 1 set of [FFBB00,CE4F00]$2[-] for [FFBB00,CE4F00]$1pt[-]?[-]
+sr:"^\[FFBB00,CE4F00\]([0-9,]+)pt\[-\]\[3C404E\]で\[-\]\[FFBB00,CE4F00\](.+)\[-\]\[3C404E\]を\n１セット購入しますか？\[-\]$"=[3C404E]Would you like to purchase 1 set of\n[FFBB00,CE4F00]$2[-] for [FFBB00,CE4F00]$1 pts[-]?[-]
 
-r:"^探索挑戦回数+(\d+)回の期間が追加となります。\n(\d+)日間スタミナ応援パックを購入しますか？?$"=For period time\nThe number of Grotto attempts +$1.\nWould you like to purchase the $2-Day Stamina Support Pack?
+r:"^探索挑戦回数+(\d+)回の期間が追加となります。\n(\d+)日間スタミナ応援パックを購入しますか？?$"=Grotto attempts +$1 for the selected period.\nWould you like to purchase \nthe $2-Day Stamina Support Pack?
 
-sr:"^\[3C404E\]探索挑戦回数\+(\d+)回の期間が追加となります。\n\[-\]\[FFBB00,CE4F00\]([0-9,]+)pt\[-\]\[3C404E\]で\[-\]\[FFBB00,CE4F00\](.+)\[-\]\[3C404E\]を購入しますか？\[-\]$"=[3C404E]For period time The number of Grotto attempts +$1.\nWould you like to purchase [FFBB00,CE4F00]$3[-] for[FFBB00,CE4F00]$2pt[-]?[-]
+sr:"^\[3C404E\]探索挑戦回数\+(\d+)回の期間が追加となります。\n\[-\]\[FFBB00,CE4F00\]([0-9,]+)pt\[-\]\[3C404E\]で\[-\]\[FFBB00,CE4F00\](.+)\[-\]\[3C404E\]を購入しますか？\[-\]$"=[3C404E]Grotto attempts +$1 for the selected period.\nWould you like to purchase \n[FFBB00,CE4F00]$3[-] for [FFBB00,CE4F00]$2 pts[-]?[-]
 
-r:"^\[3C404E\]探索挑戦回数\+(\d+)回の期間が追加となります。\n\[-\]\[FFBB00,CE4F00\](\d+)pt\[-\]\[3C404E\]で\[-\]\[FFBB00,CE4F00\](\d+)日間スタミナ応援パック\[-\]\[3C404E\]を購入しますか？\[-\]$"=[3C404E]For period time\nThe number of Grotto attempts +$1.\nWould you like to purchase the $2-Day Stamina Support Pack for[FFBB00,CE4F00]$2pt[-]?[-]
+r:"^\[3C404E\]探索挑戦回数\+(\d+)回の期間が追加となります。\n\[-\]\[FFBB00,CE4F00\](\d+)pt\[-\]\[3C404E\]で\[-\]\[FFBB00,CE4F00\](\d+)日間スタミナ応援パック\[-\]\[3C404E\]を購入しますか？\[-\]$"=[3C404E]Grotto attempts +$1 for the selected period.\nWould you like to purchase the\n $3-Day Stamina Support Pack for [FFBB00,CE4F00]$2 pts[-]?[-]
 
 [3C404E]探索挑戦回数+3回の期間が追加となります。\n[-][FFBB00,CE4F00]480pt[-][3C404E]で[-][FFBB00,CE4F00]7日間探索挑戦回数+3回[-][3C404E]を購入しますか？[-]
 r:"^(\[3C404E\]\[FFBB00,CE4F00\])(\d+)日(\[-\]\[-\])$"=$1$2 Days $3
@@ -86,7 +91,7 @@ r:"^アイテム装備パック(.+)?（([\d]+)周年）$"="Equipment Pack $1 ($2
 r:"^販売期間([0-9: /]+)まで$"=Sales period until$1
 
 ジュエル購入=Buy Jewels
-[3C404E]DMMポイントが不足しています。\nチャージしますか？[-]=[3C404E]You are out of DMM points, would you like to recharge them?[-].
+[3C404E]DMMポイントが不足しています。\nチャージしますか？[-]=[3C404E]Insufficient DMM points, would you like to recharge them?[-].
 
 r:"^あと(\d+)日有効$"=$1 Day(s) Left
 r:"^あと(\d+)時間有効$"=$1 Hours Left
@@ -95,7 +100,7 @@ r:"^探索挑戦回数+(\d+)回の期間が\n追加されました。$"=Grotto A
 購入成功=Purchase Successful
 
 
----Age registration
+---Age registration---
 入力する=input
 年齢確認=Age Confirmation
 16歳未満=under 16yo
@@ -143,3 +148,8 @@ sr:"^(\d{4})年(\d+月)$"=$2 $1
 決済手続=Payment Procedure
 r:"^\[3C404E\]\[3C404E\]DMMポイントを消費して、\n購入手続きを完了しますか？\n所持DMMポイント:(\d+)\n\[-\]\[FFBB00,CE4F00\]ここで購入したジュエルやマナは\nDMM版でご利用いただけます。\[-\]\[-\]$"=[3C404E]Do you want to use your DMM points to complete the purchase?\nYou currently have $1 DMM points.\n[FFBB00,CE4F00]The jewels and mana purchased here\ncan be used on the DMM version[-].[-]
 
+sr:"^\[3C404E\](.+)の\n期間があと\[-\]\[FF7C4E,D62146\](\d+)日\[-\]\[3C404E\]で終了します。\n購入ページへ移動しますか?\[-\]$"=[3C404E]The period of the $1\nwill end in FF7C4E,D62146]$2 day(s)[-].\nWould you like to go to the Purchase Page?[-]
+購入ページへ=To the Purchase Page
+
+r:"^プレイヤーLv(\d+)まで購入可能$"=Under Lv$1 Only!
+r:"^([0-9/]+) に追加購入可能$"=Available on $1
