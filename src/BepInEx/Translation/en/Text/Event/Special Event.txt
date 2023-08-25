@@ -11,8 +11,8 @@
 チュウザ=Chewzu
 チュウジ=Chuji
 助っ人？=A helper?
-なかよしＸ=Nakayoshi X
-なかよしX=Nakayoshi X
+なかよしＸ=Friendship X
+なかよしX=Friendship X
 アルマ＆オラム=Alma & Oram
 マリア＆女性教員=Maria & Female Teacher
 女性教員=Female faculty
@@ -54,11 +54,11 @@
 バーストダウン・バーストエンド演出=Burst Down Burst End Direction
 
 このボスはすでに完全討伐しています。=This boss has already been completely defeated.
-なかよしX＆名もなき芸術=Nakayoshi X & Nameless Art
+なかよしX＆名もなき芸術=Friendship X & Nameless Art
 バーストエンド発生！=Burst end occurs!
 ボスを完全討伐したため、バーストエンドが発生しました。=A burst end occurred because\nthe boss was completely defeated.
 TP250アップ=TP250 up
-バトル開始時、味方のＴＰが250アップ=At the start of the battle, the TP of allies is up 250
+バトル開始時、味方のＴＰが250アップ=At the start of the battle, the allies' TP is up 250
 [FF7C4E,D62146]このクエストではスタミナは消費されません[-]=[FF7C4E,D62146]Stamina is not consumed in this quest[-]
 
 リタイアするとバトルの進捗が\nバトル開始時点までリセットされます。\n\nまた、このバトルはクリアするまで\n何度でも挑戦可能です。=If you retire, the progress of the battle will be reset until the start of the battle.\n\nIn addition, this battle can be challenged as many times as you want.

@@ -1,6 +1,4 @@
 アドベンチャー=Adventure
-ドベンチャー=dventure
-
 冒険先一覧=Adventure List
 まとめて\n帰還確認=Mass\nReturn
 まとめて\n出発=Mass\nDeparture
@@ -31,13 +29,14 @@ r:"^\[FF7C4E\,D62146\]残り ([0-9/]+)回\[-\]$"=[FF7C4E,D62146]$1 Left[-]
 チケットやジュエルを使って時間を短縮！=Time to shorten time using tickets and jewels!
 1日の時間短縮可能回数の上限に達しているため時間短縮できません。=Reached maximum time reduction for today
 戦力オーバーによる時間短縮の上限になりました。=Too over powered, already max time reduction
-
+自動分解設定確認=Auto Dismantle Settings Confirmation
+アドベンチャーで獲得した際、\n以下のEX装備を自動で分解します。=When obtained on an adventure, \nthe following EX equipments will be automatically dismantled:
 ファストチケットを所持していません。=You do not have a fast ticket.
 これ以上短縮できません。=Can't shorten it anymore.
 帰還したパーティはありません。=There is no party that has returned.
 冒険中のパーティはありません。=There is no party during the adventure.
 時間短縮アイテムが設定されていません。=Time reduction items are not set.
-
+現在は別の画面に移動できません。=You can't move to another screen at the moment.
 時間短縮詳細=Time Reduction Details
 繰り返し出発5回目=5th departure
 繰り返し出発4回目=4th departure
@@ -159,5 +158,5 @@ sr:"^(.+)のアドベンチャーから撤退しました。$"=Retreat from the 
 
 アドベンチャーでは、仲間にしたキャラを冒険させることができます。一定の時間が経過すると冒険から帰還し、『EX装備』等のアイテムを獲得します。結果報告を確認し報酬を受け取りましょう。=In adventure, you can adventure the characters you made friends with. After a certain amount of time has passed, you will return from the adventure and acquire items such as "EX Equipment". Check the result report and receive the reward.
 
-【美食殿】を訪れたカリンは、アストライア大陸の各地で見つ\nかった新たな冒険先の調査をぺコリーヌたちに依頼する。ぺコ\nリーヌたちは新たな冒険に心を躍らせて依頼を快諾し、お宝を\n求めて旅立つのだった。=Karin, who visited the [Gourmet Hall], asks Pecorine and others to investigate new adventure destinations found in various parts of the Astraea continent. Pecorine and the others were excited about the new adventure, readily accepted the request, and departed in search of the treasure.
+【美食殿】を訪れたカリンは、アストライア大陸の各地で見つ\nかった新たな冒険先の調査をぺコリーヌたちに依頼する。ぺコ\nリーヌたちは新たな冒険に心を躍らせて依頼を快諾し、お宝を\n求めて旅立つのだった。=Karin, who visited the [Gourmet Guild], asks Pecorine and others to investigate new adventure destinations found in various parts of the Astraea continent. Pecorine and the others were excited about the new adventure, readily accepted the request, and departed in search of the treasure.
 アストライア大陸の未踏地=Unexplored Lands of Astraea

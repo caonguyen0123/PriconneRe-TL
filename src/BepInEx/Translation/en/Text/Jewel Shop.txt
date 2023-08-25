@@ -1,5 +1,4 @@
-ジ=J
-ュエルショップ=ewel Shop
+ジュエルショップ=Jewel Shop
 　ジュエル・その他購入=Jewels/Other Purchases
 所持ジュエル確認=Check Jewels Held
 マナ購入=Mana Exchange
@@ -34,6 +33,8 @@ r:"^([2-9])回限定$"="Limited!\n$1 times only"
 購入済み=Purchased
 資金決済法に基づく表示=Fund Settlement Law
 コラボ記念 専用装備グロウスフィアパック=Collab-Event UE Growsphere Pack
+Anniversary グロウスフィアパック　=Anniversary Growsphere Pack
+Anniversary 専用装備グロウスフィアパック=Anniversary UE Growsphere Pack
 探索挑戦回数 +3回=Grotto +3
 探索挑戦回数 +3回購入=Buy Grotto +3
 探索挑戦回数 +3回について=About Grotto +3 Attempts 
@@ -153,3 +154,6 @@ sr:"^\[3C404E\](.+)の\n期間があと\[-\]\[FF7C4E,D62146\](\d+)日\[-\]\[3C40
 
 r:"^プレイヤーLv(\d+)まで購入可能$"=Under Lv$1 Only!
 r:"^([0-9/]+) に追加購入可能$"=Available on $1
+
+デイリージュエルパック終了通知=Daily Jewel Package Ending Notice
+デイリージュエルパックの\n期間が終了しました。\n購入ページへ移動しますか?=Daily Jewel Package period has ended. Would you like to go to the purchase page?

@@ -34,6 +34,15 @@
 獄炎をまとう竜の牙から作られた大槍。穂先で大地をなぞるだけで炎が吹き上がり、瞬く間に周囲を煉獄に変えてしまうという。=A large spear made from the fang of a hellfire dragon. It is said that just by tracing the ground with the tip, flames will shoot up, turning the surroundings into purgatory in the blink of an eye.
 
 ---Gold ----------------------------------------------------------
+【クラン】フェイトオブワンダラー=[Clan] Fate of Wanderer
+【クラン】オナーオブワンダラー=[Clan] Honor of Wanderer
+【クラン】フェイトオブセンチネル=[Clan] Fate of Sentinel
+【クラン】オナーオブセンチネル=[Clan] Honor of Sentinel
+【クラン】フェイトオブプリースト=[Clan] Fate of Priest
+【クラン】オナーオブプリースト=[Clan] Honor of Priest
+【クラン】フェイトオブソーサラー=[Clan] Fate of Sorcerer
+【クラン】オナーオブソーサラー=[Clan] Honor of Sorcerer
+
 【クラン】ウィズダムオブノーブル=[Clan] Wizdom of Noble
 【クラン】ワイズオブノーブル=[Clan] Wise of Noble
 【クラン】ウィズダムオブシャーマン=[Clan] Wisdom of Shaman
@@ -49,7 +58,7 @@
 月と星々から光を奪うという伝承が残るドレス。周囲の光を吸収して力に変えることで、無尽蔵の魔力をとめどなく供給できる。=A dress with a legend of stealing light from the moon and stars. Absorbs surrounding light and can endlessly supply magical power.
 伝承に謳われる精霊の加護を宿した霊剣。風の元素をまとうその刃はあらゆる鎧を両断し、使い手に勝利をもたらしたという。=A spirit sword carrying the blessings of legendary spirits. Its wind-element blade can cut through any armor and bring victory to its wielder.
 古代王国の伝承にも残る魔法書。あらゆる属性魔法について記されており、太古の魔法使いはそれらを駆使して敵の軍勢を打ち破ったという。=A magic book with knowledge on every attribute spell. Ancient wizards wielded them to defeat their enemies.
-幾千の人々の平和への祈りが形を成したローブ。その純粋な願いの力からもたらされる加護は、祈祷の効果を極限にまで高めるという。=A robe formed by prayers for peace from thousands. Its blessings significantly amplify effects of prayers.
+幾千の人々の平和への祈りが形を成したローブ。その純粋な願いの力からもたらされる加護は、祈祷の効果を極限にまで高めるという。=A robe formed by prayers for peace from thousands. Its blessings greatly amplify effects of prayers.
 虹色に輝く鉱石を、一流の職人が心血を注いで加工した耳飾り。愛する人を守り抜くと誓うとき、雄大な自然の恩恵を与えるという。=Earrings processed with all the heart and soul by top-class craftsmen from minerals that shine in rainbow colors. It is said to provide the blessings of majestic nature when vowing to protect a loved one till the end.
 非常に強力な癒しの力を有する耳飾り。結晶の形状も相まって、傷ついた者のために流された慈母の涙であると信じられている。=Earrings with powerful healing abilities. Believed to be tears of a loving mother with crystal shape on top.
 高位の占い師が身に着ける首飾り。運命を読み取る力があるといわれ、迷える者に進むべき正しい未来を示してくれる。=A necklace for high-ranking fortune-tellers. Capable of predicting fate and guiding a lost soul towards the right future.
@@ -131,7 +140,7 @@
 白翼の銀盾=White-Winged Silver Shield
 高潔な騎士が愛用した盾。使い手が盾に認められると羽毛のように軽く認められなければ鉄塊の如く重くなることから試しの盾とも言われる。=A shield used by a noble knight. If the user is recognized by the shield, it will be a heavy like an iron mass unless recognized it will lightly like feathers.
 
-僧兵の槍斧=monk's spear-axe
+僧兵の槍斧=Monk's spear-axe
 聖職者が悪しき存在と戦う時に用いる槍斧。聖水を用いて研がれた刃には破魔の効果が宿り、巨大な魔物をも退けるという。=A spear-axe used when a priest fights bad beings. It is said that the blades aged using holy water have the effects of the devil, leaving huge monsters.
 
 

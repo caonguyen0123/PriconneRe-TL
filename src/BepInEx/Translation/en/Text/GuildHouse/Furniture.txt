@@ -7,9 +7,9 @@ r:"^床([1-9×]{3})$"=$1
 sr:"^\[3C404E\]\[FFBB00,CE4F00\](\d+時間)?(\d+分)?\[-\]で(.+)×\[FFBB00,CE4F00\](\d+)\[-\]生産、\[FFBB00,CE4F00\](\d+)\[-\]まで保管可能\[-\]$"=[3C404E]Produce $3 × [FFBB00,CE4F00]$4[-] every [FFBB00,CE4F00]$1$2[-]. Can store up to [FFBB00,CE4F00]$5[-].[-]
 sr:"^\[3C404E\]\[3C404E\]\[FFBB00,CE4F00\](\d+時間)?(\d+分)?\[-\]で(.+)×\[FFBB00,CE4F00\](\d+)\[-\]生産、\[FFBB00,CE4F00\](\d+)\[-\]まで保管可能\[-\]\[-\]$"=[3C404E]Produce $3 × [FFBB00,CE4F00]$4[-] every [FFBB00,CE4F00]$1$2[-]. Can store up to [FFBB00,CE4F00]$5[-].[-]
 
-1Fに設置中のため売却できません。=cannot be sold because it is installed on 1F.
-2Fに設置中のため売却できません。=cannot be sold because it is installed on 2F.
-3Fに設置中のため売却できません。=cannot be sold because it is installed on 3F.
+1Fに設置中のため売却できません。=Cannot be sold because it is installed on 1F.
+2Fに設置中のため売却できません。=Cannot be sold because it is installed on 2F.
+3Fに設置中のため売却できません。=Cannot be sold because it is installed on 3F.
 
 プリぐるみスペシャル（アメス）=Purigurumi Special (Ameth)
 新しい家具を入手しました。\n収納BOX、またはプレゼントリストをご確認ください。=New furniture has been obtained. \nPlease check the Storage Boxes.
@@ -36,7 +36,7 @@ r:"^おやつテーブルLv.(\d+)$"=Snack Table lv.$1
 イベント限定ギルドハウス家具獲得=Event-Limited Guildhouse Furniture Acquired
 sr:"^\[3C404E\]\[3C404E\]イベント限定ギルドハウス家具\n「\[-\]\[FFBB00,CE4F00\](.+)\[-\]\[3C404E\]」を\nプレゼントしました！\n\nプレゼントは直接収納BOXに贈られます。\[-\]\[-\]$"=[3C404E]Event-Limited Guildhouse Furniture [FFBB00,SE4F00]$1[-] has been given as a present!\n\nPresents will be sent directly to the storage box.[-]
 
----=Furniture---
+---Furniture---
 教室の黒板=Classroom Blackboard
 教室の机=Classroom Desk
 教室の掃除用具=Classroom Cleaning Tool
@@ -220,7 +220,7 @@ sr:"^\[3C404E\]\[3C404E\]イベント限定ギルドハウス家具\n「\[-\]\[F
 マジカルピュアリーボウ=Magical Purely Bow
 みんなのゲームテーブル=Everyone's Game Table
 メモリアルマップボード=Memorial Map Board
-なかよしＸ　Ｍｋ―Ⅱ=Nakayoshi X MK-II
+なかよしＸ　Ｍｋ―Ⅱ=Friendship X MK-II
 マジカルラブリーソード=Magical Lovely Sword
 マジカルシャイニーレイピア=Magical Shiny Lapia
 １stアニバーサリーフラワーポール=1st Anniversary Flower Pole
@@ -231,7 +231,7 @@ sr:"^プリぐるみ（([べ-・ー]{2,11})）$"=Pri-gurumi ($1)
 ピップルのおうち=Pipple house
 今日は何しようかな=What shall we do today?
 ネビアのやすらぎビオトープ=Yasuragi Biotope in Navi
-ぐるぐるうさぎさん=circling rabbit
+ぐるぐるうさぎさん=Circling rabbit
 ハロウィントリックボックス=Halloween Trick Box
 アイちゃんクッション=Ai Cushion
 キョウカの黒猫ほうき=Kyoka's Black Cat Broom

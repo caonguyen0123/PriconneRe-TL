@@ -1,6 +1,4 @@
-Profileムイミ
-ム=M
-イミ=uimi
+Profile
 さまよえる謎の少女=A young wanderer with a mysterious past
 Skills
 UB
@@ -15,8 +13,8 @@ S1
 r:"^斬撃で範囲内の敵に(\d+)の物理ダメージ\n蹴りで範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵を一定時間行動不能にする$"=Cast time: 0.34s\n►Deals $1 P.DMG to enemies within range.\n►Deals $2 P.DMG to enemies within range.\n►Inflict stun on targets damaged by act 1 for 1.5s.\n►Knock targets damaged by act 2.
 S2
 こっちだこっち！=Right This Way!
-前方範囲内の敵すべての物理防御力を小ダウンさせる。=Lowers the P.DEF of all enemies in range by a small amount.
-r:"^範囲内の敵の物理防御力を(\d+)ダウン$"=►Lowers P.DEF of enemies in range by $1.
+前方範囲内の敵すべての物理防御力を小ダウンさせる。=Lowers the P.DEF of all enemies within range by a small amount.
+r:"^範囲内の敵の物理防御力を(\d+)ダウン$"=►Lowers enemies' P.DEF within range by $1.
 ex
 ポテンシャルフォース=Potential Force
 Skills+
@@ -28,7 +26,7 @@ ex
 ポテンシャルフォース+=Potential Force+
 UE
 絆の証=Proof of Bonds
-このスキルのスキルレベルは「天楼覇断剣」と連動しています=The skill level of this skill is linked to "Spiresbane Blade"
+このスキルのスキルレベルは「天楼覇断剣」と連動しています=This skill’s level is linked to "Spiresbane Blade"
 
 自分を中心とした範囲内の敵すべてに物理大ダメージを与える。=Inflicts great P.DMG to all enemies within range around you.
 

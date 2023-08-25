@@ -28,6 +28,7 @@ Like情報=Like Info
 同名キャラ\n選択中=Already\nSelected
 同名キャラ\n設置中=Already\nPlaced
 同じ名前のキャラは同一パーティに編成できません。=Characters with the same name cannot be organized in the same party.
+カリンとカリンの机は同時に配置できません。=Karin and Karin's Table cannot be placed at the same time.
 報酬受取=Claim All
 以下のアイテムを受け取りました。=You have received the following items.
 引き出せるマナがありません。=There is no mana to take out.
@@ -76,8 +77,7 @@ r:"^絆ランク (\d+)$"=Bond\nRank $1
 
 ---games---
 購入価格=Price
-み=E
-んなのゲームテーブル=veryone's Game Table
+みんなのゲームテーブル=Everyone's Game Table
 レッツ・クッキング！\nミヤコとプリンを作って食べて\nプリンの道を極めよう！=Let's Cook! Let's make and eat pudding with Miyako to master the way of pudding!
 こちらは1,000ルピで\n販売中！\nぜひ購入して\n遊んでくださいね！=This one's on sale for 1,000 rupees, so buy it and play with it!
 楽しいミニゲームをご紹介！\nあなたはどのミニゲームで\n遊びますか？=Here are some fun Mini Games! Which mini-game will you play?
