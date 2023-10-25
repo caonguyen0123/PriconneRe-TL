@@ -3,18 +3,22 @@
 ペコリーヌの満腹ツインおにぎり=Pecorine's Satisfying Twin Onigiri
 コッコロのゆるりと休憩サラダ=Kokkoro's Laid-back Relaxing Salad
 キャルの絶品五つ星バーガー=Kyaru's Delicious 5-Star Burger
-リリのコツコツまい進かしわ餅=Riri's Slow and Steady Kashiwa Mochi
+リリのコツコツまい進かしわ餅=Lily's Slow and Steady Kashiwa Mochi
 プレシアの食いしん坊ぶーぶー肉まん=Precia's Gourmet Bu-Bu Pork Bun
 クローチェのフルパワーポテトサラダ=Croce's Full Power Potato Salad
 リマの不思議なスイートアップル=Rima’s Mysterious Sweet Apple
 ニノンのオリジナル一二三寿司=Ninon's Original Hifumi Sushi
 クレジッタの開運お菓子盛り合わせ=Creditta's Lucky Sweet Platter
+リノの「時は金時」かき氷=Rino's "Time is Money" Shaved Ice
+シズルの愛情\n盛り盛りハンバーグ=Shizuru's Affection-Loaded Hamburger Steak
+アオイの疾走サンドイッチ=Aoi's Sprinting Sandwich
+
 ---Yellow----
 アヤネとクルミの青空ピクニックセット=Ayane and Kurumi's Blue Sky Picnic Set
 カヤとイノリの食欲倍増ケバブサンド=Kaya and Inori's Apettite-doubling Kebab Sandwich
 タマキの金運招くレインボーたい焼き=Tamaki's Rainbow Wealth Fortune Taiyaki
 ---Green---
-クリアの彩り華やかバラエティ弁当=Quria's Colorful Variety Bento
+クリアの彩り華やかバラエティ弁当=Clear's Colorful Variety Bento
 
 ---Dish effects---
 ---Red---
@@ -27,6 +31,9 @@
 [3C404E][FF7C4E,D62146]【上書き不可】[-]次に振るダイスの目を必ず「8」に、その次に振るダイスの目を必ず「1」にする。[-]=[3C404E][FF7C4E,D62146]【Non-overwritable】[-]You will roll a guaranteed 8 next turn. Then, a guaranteed 1 the turn after.[-]
 次に振るダイスの目を必ず「2」に、その次に振るダイスの目を必ず「7」にする。=You will roll a guaranteed 2 next turn. Then, a guaranteed 7 the turn after.
 次に振るダイスの目が「1・2・3」のみになる。\nさらに、次のターン数のカウントをスキップす\nる。=You will roll a 1, 2 or 3 next turn.\nThe turn counter will not increase.
+マイルマスをスキップして移動できる。効果は2ターンの間継続する。=You can move by skipping the Mile Tiles. Effect lasts for 2 turns.
+次にダイスを振った際、1マス多く進…=You can move 1 extra Tile next turn.
+次にダイスを振った際、1マス多く進める。=You can move 1 extra Tile next turn.
 ---Yellow---
 マップ上の「マイルマス」「トレジャーマス」 「ショップマス」のRANKが1つ上がる。効果は対象のマスに計2回止まるまで継続する。=The RANK of all "Mile Tiles", "Treasure Tiles" and "Shop Tiles" will increase by 1. This effect will last until you stop at a relevant tile mentioned earlier for a total of 2 times. 
 次にマイルマスに止まった際の獲得マイルが200%アップする。=You will get 200% more Miles on the next Mile Tile you stop at.
@@ -63,6 +70,15 @@
 【料理】ダイスの目が1回目は必ず「3」に、2回目は必ず「6」になる=[Cooking] You will roll a guaranteed 3 next turn. Then, a guaranteed 6 the turn after.
 【料理】ダイスの目が「4・5・6」のみになる=[Cooking] You will roll a 4, 5 or 6 next turn.
 【料理】ダイスの目が\n「1・2・3」のみになる=[Cooking] You will roll a 1, 2 or 3 next turn.
+【料理】移動時にマイルマスをスキップできる。=[Cooking] Skip Mile Tiles when moving.
+【料理】次回移動時に1マス分多く進める。=[Cooking] You can move 1 extra Tile next turn.
+
+---Sub-effects---
+r:"^(\d+)マイルを獲得する。$"=Acquire $1 miles.
+福引券を1枚獲得する。=Acquire 1 lottery ticket.
+r:"^RANK(\d+)のマイルショップを開く。$"=Open a RANK$1 mile shop.
+sr:"^(.+)を(\d+)個獲得する。$"=Obtain $2 x $1.
+sr:"^(.+)を(\d+)個獲得…$"=Obtain $2 x $1.
 
 ---Overwrite confirmation texts, cause the have gray color codes... Could not test all yet, excluded the non-overwritable one, will test on the go---
 ---Red---
@@ -89,14 +105,13 @@
 
 キャルが食べたい物を挟み込んだハンバーガー。香ばしいパンとお肉の香りが食欲を刺激する。魔物でない素材で作られた、冒険中に食べるにはゴージャスすぎる一品、とキャルは信じている。=A hamburger filled with Kyaru's favorite dish. The aroma of toasted bread and meat stimulates the appetite. Kyaru believes it's a luxurious dish made with non-monster ingredients, perfect for eating during an adventure.
 
-リリが作った柏餅……の中でも、上手く作れた選りすぐりの品。最高の素材を使用した上、失敗した分はリリが自分で食べてしまったため単価でみるとかなりの高級品となっている。=Riri's kashiwa-mochi is one of the best... carefully crafted using the best ingredients. Failed attempts were consumed by Riri herself, making it a very high-end product in terms of unit price.
+リリが作った柏餅……の中でも、上手く作れた選りすぐりの品。最高の素材を使用した上、失敗した分はリリが自分で食べてしまったため単価でみるとかなりの高級品となっている。=Lily's kashiwa-mochi is one of the best... carefully crafted using the best ingredients. Failed attempts were consumed by Lily herself, making it a very high-end product in terms of unit price.
 
-プレシアが選び抜いた具を詰め込んだ肉まん。\n彼女の希望で、通常の肉まんの数倍のサイズに\nなっている。味もボリュームも満点でハッピー\n間違いなしですよ♪とは調理担当クリアの談。=It's a steamed bun filled with ingredients carefully selected by Precia. Based on her request, it is several times larger than a regular pork bun. According to Quria, the chef in charge, the taste and volume are outstanding, guaranteeing a happy experience without a doubt.
+プレシアが選び抜いた具を詰め込んだ肉まん。\n彼女の希望で、通常の肉まんの数倍のサイズに\nなっている。味もボリュームも満点でハッピー\n間違いなしですよ♪とは調理担当クリアの談。=It's a steamed bun filled with ingredients carefully selected by Precia. Based on her request, it is several times larger than a regular pork bun. According to Clear, the chef in charge, the taste and volume are outstanding, guaranteeing a happy experience without a doubt.
 
 クローチェがフルパワーで作ったポテトサラダ。本来はガレットを作ろうとしたが、うっかり握り潰してしまったため、軌道修正して仕上げた一品。経緯はともかく味は非常に美味である。=Croce's potato salad, made with full power. She originally intended to make galette, but accidentally squashed it and made a course correction. Regardless of the process, the taste is exceptionally delicious.
 
 リマがネネカにもらったリンゴで作った秘密の\nスイーツ。爽やかな酸味と濃厚な甘さがまるで\n魔法のようなバランスでお互いを引きたてており\n食べた者をたちまち虜にしてしまうという。=A secret dessert made from apples that Rima had received from Neneka. It is said that the refreshing sourness and rich sweetness balance each other out like magic, captivating anyone who eats it in an instant.
-
 
 クレジッタが考案した、ジオ・テオゴニアで流通\nしているチョコの貨幣の盛り合わせ。一見すると\n金貨を口に入れるおバカさんではあるが、通貨を\n食べるという背徳感が隠し味となっている。=An assortment of chocolate coins distributed in Geo Teogonia, devised by Creditta. At first glance, she seems like an idiot who puts gold coins in her mouth, but the secret ingredient behind her is the sense of immorality that comes from eating currency.
 
@@ -104,10 +119,9 @@
 
 お姉ちゃんが弟くんのために心を込めて作った\nスペシャルなハンバーグ。アツアツの肉汁と共に\n溢れんばかりの愛が詰まっており、一口食べる\nだけで、走り回りたくなるような美味しさ。=Onee-chan put her heart and soul into making this special hamburg steak for her brother. It's filled with overflowing love along with the hot meat juices, and just one bite makes me want to run around.
 
-リノの「時は金時」かき氷=Rino's Time is Mon[s]k[\s]ey Shaved Ice
-マイルマスをスキップして移動できる。効果は2ターンの間継続する。=You can move by skipping the mile square. Effect lasts for 2 turns.
-可愛い妹がお兄ちゃんのために心を込めて作った\nスペシャルなかき氷。一口食べるとたちどころに\nクールな甘さが精神を研ぎ澄まし、いかなる\nお得をも見逃さない要塞賢母と化すという。=A special piece of shaved ice made with the heart of a cute little sister. It is said that the cool sweetness of a bite sharpens one's mind and turns you into a stronghold wise mother who will not miss a single bargain.
+可愛い妹がお兄ちゃんのために心を込めて作った\nスペシャルなかき氷。一口食べるとたちどころに\nクールな甘さが精神を研ぎ澄まし、いかなる\nお得をも見逃さない要塞賢母と化すという。=A special shaved ice made with all the love of a cute little sister for her big brother. One bite, and it instantly sharpens your spirit with its cool sweetness, turning you into a fortress of wisdom that never misses any opportunity.
 
+お姉ちゃんが弟くんのために心を込めて作った\nスペシャルなハンバーグ。アツアツの肉汁と共に\n溢れんばかりの愛が詰まっており、一口食べる\nだけで、走り回りたくなるような美味しさ。=A special hamburger made with all the love of a big sister for her little brother. It's packed with overflowing love, along with piping hot meat juices. Just one bite, and it's so delicious that you'll want to run around.
 
 ---Yellow---
 アヤネとクルミが二人で用意した特別なランチバスケット。仲間との冒険への希望が詰まったご機嫌な料理の数々で、道中の様々な出来事が１ランク上のイベントに感じられるようになる。=Ayane and Kurumi have prepared a special lunch basket together. The cheerful dishes filled with hopes for adventures with friends will make various events along the way feel like one rank higher.
@@ -117,6 +131,6 @@
 タマキたちが『ジオ・テオゴニア』に持ち込んだ\nたい焼きの概念が現地の文化と溶け合い生まれた\n魔改造スイーツ。虹色に輝くその甘さは、実に\nランドソルのたい焼きの数倍と言われている。=The concept of a taiyaki, brought to Geo Theogonia by Tamaki and her friends, has blended with the local culture and given birth to a modified sweet treat. This rainbow-colored, magical treat is said to be several times sweeter than the taiyaki of Landosol.
 
 ---Green---
-クリアが朝早くから用意した冒険用のお弁当。おかずは様々でどれも絶品だが、どんなものが入っているかはみんなにも秘密にされているため蓋を開けるまでのお楽しみとなっている。=Quria has prepared an adventure bento box since early morning. The side dishes are diverse and all of them are exquisite. The contents are kept secret from everyone, making it a delightful surprise until you open the lid and find out.
+クリアが朝早くから用意した冒険用のお弁当。おかずは様々でどれも絶品だが、どんなものが入っているかはみんなにも秘密にされているため蓋を開けるまでのお楽しみとなっている。=Clear has prepared an adventure bento box since early morning. The side dishes are diverse and all of them are exquisite. The contents are kept secret from everyone, making it a delightful surprise until you open the lid and find out.
 
 
