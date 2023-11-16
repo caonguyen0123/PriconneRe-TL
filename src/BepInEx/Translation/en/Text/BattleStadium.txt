@@ -1,4 +1,5 @@
 バトルスタジアム=Battle Stadium
+バトルコロシアム=Battle Colosseum
 準備中=Coming soon
 1PTvs1PTのバトル\n順位を上げて報酬を獲得=1PT vs 1PT battle\nRaise your ranking and get rewards
 3PTvs3PTの総力戦\n順位を上げて報酬を獲得=3PT vs 3PT all-out battle\nRaise your ranking and get rewards
@@ -16,7 +17,7 @@
 バトルスタジアムでは、難易度ごとにそれぞれ３つの編成が登場します。\nバトルには何度も挑戦可能ですので、編成を工夫して挑みましょう。=In the Battle Stadium, three teams will appear for each difficulty level. They can be challenged as many times as you like, so let's try a variety of strategies.
 編成選択=Select Formation
 編成最高スコア=Pt Hi-Score
-
+次回バトルスタジアム開催までお待ちください=Please wait until the next battle stadium is held
 勝敗=Win
 最高スコア=Highest
 挑戦履歴=Challenge History
