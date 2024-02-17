@@ -36,6 +36,7 @@
 （アルケミスト）= (Alchemist)
 （フォールン）= (Fallen)
 （サラサリア）= (Salasaria)
+（アストラル）= (Astral)
 クリスティーナ=Christina
 ラビリスタ=Labyrista
 ペコリーヌ=Pecorine
@@ -113,7 +114,7 @@
 ユキ=Yuki
 ミオ=Mio
 ヨリ=Yori
-リマ=Rima
+リマ=Lima
 レム=Rem
 ルカ=Ruka
 ユニ=Yuni
@@ -135,7 +136,7 @@ share name with button guildhouse
 
 カズマサ=Kazumasa
 ユウキ=Yuuki
-ネビア=Navi
+ネビア=Nebia
 
 べ-ヺー＆
 
