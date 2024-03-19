@@ -31,12 +31,13 @@
 （エクスプローラー）= (Explorer)
 （ワイルド）= (Wild)
 （リベレイター）= (Liberator)
-（カフェ）= (Cafe)
+（カフェ）= (Café)
 （ウォーロック）= (Warlock)
 （アルケミスト）= (Alchemist)
 （フォールン）= (Fallen)
 （サラサリア）= (Salasaria)
 （アストラル）= (Astral)
+（ウィンター）= (Winter)
 クリスティーナ=Christina
 ラビリスタ=Labyrista
 ペコリーヌ=Pecorine
@@ -44,7 +45,9 @@
 クレジッタ=Creditta
 ヴァンピィ=Vampy
 クローチェ=Croce
+アネモネ=Anemone
 コッコロ=Kokkoro
+ネフィ＝ネラ=Nefi Nera
 キョウカ=Kyouka
 シェフィ=Sheffy
 ランファ=Ranpha
@@ -136,7 +139,7 @@ share name with button guildhouse
 
 カズマサ=Kazumasa
 ユウキ=Yuuki
-ネビア=Nebia
+ネビア=Nebbia
 
 べ-ヺー＆
 
