@@ -116,7 +116,7 @@ r:"^([0-9,]+)で購入$"=Purchase at $1
 [FF7C4E,D62146]専用装備２作成に必要な数を超えています。[-]=[FF7C4E,D62146]Exceeds the number required to create UE-2.[-]
 [FF7C4E,D62146]専用装備２作成に必要な数を所持しています。[-]=[FF7C4E,D62146]Has the necessary amount to create UE-2.[-]
 
-キャラLv限界突破に必要な数が含まれています。\n専用装備の上限解放に必要な数を購入できます。=Contains the number required to Limit Break the character\nYou can purchase the number required to uncap Unique Equipment.
+キャラLv限界突破に必要な数が含まれています。\n専用装備１の上限解放に必要な数を購入できます。=Contains the number required to Limit Break the character\nYou can purchase the number required to uncap Unique Equipment 1.
 特定の強化分の購入数を超えています。\nそのまま購入しますか？=Exceeded the number required for UE enhancement.\nDo you want to continue with the purchase?
 ★5に必要な個数まで指定できます。=You can specify up to the number you need for ★5.
 ★4に必要な個数まで指定できます。=You can specify up to the number you need for ★4.
@@ -138,6 +138,10 @@ sr:"^([べ-ヺー＆]+)(（.+）)?の\nメモリーピースの購入数が(\d+)
 
 sr:"^\[3B3F4D\]([べ-・ー]{2,12})を\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3B3F4D\]個使用して\nショップの内容をリセットしますか\?\[-\]$"=[3B3F4D]Use $1 ×[FFBB00,CE4F00]$2[-]\nto reset the contents of the shop?[-]
 
+r:"^\[3B3F4D\]マスターコイン×\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3B3F4D\]を消費して\n?以下のアイテムをリセットしますか？\[-\]$"=[3B3F4D]Use Master Coin ×[FFBB00,CE4F00]$1[-]\nto reset the following items?[-]
+[FF7C4E,D62146]リセット対象外のアイテムはリセットされません。[-]=[FF7C4E,D62146] Items that are not eligible for reset will not be reset.[-]
+リセット対象外のアイテム=Items that are not reset
+リセット対象のアイテム=Items to be reset
 r:"^次回ラインナップは(\d+):00更新$"=Next Reset at $1:00(JST)
 毎日5:00ラインナップ更新=Reset Daily at 5:00(JST)
 毎日5:00更新　出現数4/5
