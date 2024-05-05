@@ -6,6 +6,12 @@ Sダッシュ=S:Dash
 プリフェス=PriFES
 プリフェスガチャ=PriFES Gacha
 ★3確定=Guarantee ★3
+★3確定（火）=3★ Fire
+★3確定（水）=3★ Water
+★3確定（風）=3★ Wind
+★3確定（光）=3★ Light
+★3確定（闇）=3★ Dark
+
 プラチナ=Premium
 ピックアップ=Focus
 プラチナガチャ=Premium Gacha
@@ -206,9 +212,9 @@ sr:"^「([べ-ヺー＆]+)(（.+）)?」\n\nにピックアップ対象を変更
 [3C404E]アイテムやメモリーピースをGET！[-]=[3C404E] Get items and Memory Shards! [-]
 所持上限を超えるアイテムはプレゼントに送られます。=Items over the possession limit will be sent to the present box.
 日   回無料！=Daily free!
-   日最大     度引ける=.　roll,　　x / day
+   日最大     度引ける=.　roll,　        x / day
    時と     時リセット= &        : Reset
-毎日   時にリセット=am    :00 Reset   
+毎日   時にリセット=am       :00 Reset   
 1度= 
 だけ引ける!=Once Pull!
 すでに\n引き終わっています=Already\npulled
@@ -276,6 +282,11 @@ sr:"^(.+)\nを消費してガチャを1回引きます。よろしいですか\?
 [3C404E]10キャラ目は[FFBB00,CE4F00]★3キャラ確定！[-] マスターピース×１獲得可能！[-]=[3C404E]A [FFBB00,CE4F00]Limited ★3 character[-] is guaranteed with a 10x draw! Master Piece x1 can be obtained![-]
 
 
+[3C404E]10キャラ目は[FFBB00,CE4F00]火属性の★3キャラ確定！[-]=[3C404E]A [FFBB00,CE4F00]Limited ★3 Fire Character[-] is guaranteed with a 10x draw!
+[3C404E]10キャラ目は[FFBB00,CE4F00]水属性の★3キャラ確定！[-]=[3C404E]A [FFBB00,CE4F00]Limited ★3 Water Character[-] is guaranteed with a 10x draw!
+[3C404E]10キャラ目は[FFBB00,CE4F00]風属性の★3キャラ確定！[-]=[3C404E]A [FFBB00,CE4F00]Limited ★3 Wind Character[-] is guaranteed with a 10x draw!
+[3C404E]10キャラ目は[FFBB00,CE4F00]光属性の★3キャラ確定！[-]=[3C404E]A [FFBB00,CE4F00]Limited ★3 Light Character[-] is guaranteed with a 10x draw!
+[3C404E]10キャラ目は[FFBB00,CE4F00]闇属性の★3キャラ確定！[-]=[3C404E]A [FFBB00,CE4F00]Limited ★3 Dark Character[-] is guaranteed with a 10x draw!
 
 
 
@@ -345,5 +356,5 @@ sr:"^(.{2,12}ガチャ)「(\d+)回引く」$"="$1 "Draw $2 Times"."
 アイテム:=Item:
 [FF7C4E,D62146]すでに仲間になったキャラは女神の秘石に変換されます。\n獲得アイテムは直接付与されます。[-]=[FF7C4E,D62146]Duplicate characters will be converted to Divine Amulets.\n The acquired item will be directly obtained. [-]
 マスターピース=Masterpiece
-獲得済み=Acquired
-対象キャラ=Target character
+獲得済み=Get
+対象キャラ=Character
